@@ -1,0 +1,32 @@
+C:\Users\nabil\source\repos\ComicRentalSystem\bin\Debug\ComicRentalSystem.exe.config
+C:\Users\nabil\source\repos\ComicRentalSystem\bin\Debug\ComicRentalSystem.exe
+C:\Users\nabil\source\repos\ComicRentalSystem\bin\Debug\ComicRentalSystem.pdb
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.AssemblyReference.cache
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.Form1.resources
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.Properties.Resources.resources
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.GenerateResource.cache
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.CoreCompileInputs.cache
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.exe
+C:\Users\nabil\source\repos\ComicRentalSystem\obj\Debug\ComicRentalSystem.pdb
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\bin\Debug\ComicRentalSystem.exe.config
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\bin\Debug\ComicRentalSystem.exe
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\bin\Debug\ComicRentalSystem.pdb
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.AssemblyReference.cache
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.exe.config
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Login.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Rent.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Extend.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Terms.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Properties.Resources.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.GenerateResource.cache
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.csproj.CoreCompileInputs.cache
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.exe
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.pdb
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Addmin.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.AdminDashboard.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.AdminLogin.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Books.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Confirmation.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Payment.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Renters.resources
+C:\Users\IdeaPad Gaming 3\Desktop\ComicRentalSystem\obj\Debug\ComicRentalSystem.Dashboard.resources
