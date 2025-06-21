@@ -20,3 +20,24 @@ C:\Users\IdeaPad Gaming 3\Desktop\BookLoop\obj\Debug\BookLoop.csproj.GenerateRes
 C:\Users\IdeaPad Gaming 3\Desktop\BookLoop\obj\Debug\BookLoop.csproj.CoreCompileInputs.cache
 C:\Users\IdeaPad Gaming 3\Desktop\BookLoop\obj\Debug\ComicRentalSystem.exe
 C:\Users\IdeaPad Gaming 3\Desktop\BookLoop\obj\Debug\ComicRentalSystem.pdb
+C:\Users\nabil\Source\Repos\BookLoop\bin\Debug\ComicRentalSystem.exe.config
+C:\Users\nabil\Source\Repos\BookLoop\bin\Debug\ComicRentalSystem.exe
+C:\Users\nabil\Source\Repos\BookLoop\bin\Debug\ComicRentalSystem.pdb
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\BookLoop.csproj.AssemblyReference.cache
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Addmin.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.AdminDashboard.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.AdminLogin.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Books.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Confirmation.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Dashboard.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Login.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Rent.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Payment.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Extend.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Renters.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Terms.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.Properties.Resources.resources
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\BookLoop.csproj.GenerateResource.cache
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\BookLoop.csproj.CoreCompileInputs.cache
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.exe
+C:\Users\nabil\Source\Repos\BookLoop\obj\Debug\ComicRentalSystem.pdb
