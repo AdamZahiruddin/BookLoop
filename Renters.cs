@@ -20,7 +20,7 @@ namespace ComicRentalSystem
         public Renters()
         {
             InitializeComponent();
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Github\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mohda\\source\\repos\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
             connection = new SqlConnection(connectionString);
         }
 

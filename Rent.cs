@@ -41,7 +41,7 @@ namespace ComicRentalSystem
         private void button1_Click(object sender, EventArgs e)
         {
             // Initialize the connection object
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Github\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mohda\\source\\repos\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
             //connection = new SqlConnection(connectionString);
             //string query = "SELECT * FROM Books WHERE Title = @title AND BookStatus = 'Available'";
             string query = "SELECT * FROM Books WHERE Title LIKE '%' + @title + '%' AND BookStatus = 'Available'";
@@ -448,6 +448,17 @@ namespace ComicRentalSystem
                 checkBox11.Text = "Getz/Gilberto"; checkBox11.Visible = true;
             }
             sharedData.genre = radioButton5.Text; // Set genre from each radio button
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Extend(sharedData.username).Show();
+            this.Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

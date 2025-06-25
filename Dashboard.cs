@@ -23,7 +23,7 @@ namespace ComicRentalSystem
         public Dashboard()
         {
             InitializeComponent();
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Github\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mohda\\source\\repos\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
         }
 
         private void Dashboard_Load(object sender, EventArgs e)

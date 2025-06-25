@@ -20,7 +20,7 @@ namespace ComicRentalSystem
         public Addmin()
         {
             InitializeComponent();
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Github\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mohda\\source\\repos\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
             conn = new SqlConnection(connectionString);
         }
 
@@ -41,7 +41,6 @@ namespace ComicRentalSystem
 
                 dgvBooks.DataSource = dataSet.Tables["Admin"];
             }
-
         }
 
         private void btnAdmin_Click(object sender, EventArgs e)

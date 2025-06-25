@@ -15,7 +15,7 @@ namespace ComicRentalSystem
     public partial class Login : Form
     {
         private SqlConnection connection;
-        private string username;
+        public string username;
         private bool found;
         public Login()
         {
@@ -55,7 +55,7 @@ namespace ComicRentalSystem
         {
             username = txtName.Text;
             // Initialize the connection object
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Github\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mohda\\source\\repos\\BookLoop\\BookLoopDB.mdf;Integrated Security=True";
             connection = new SqlConnection(connectionString);
             string query = "SELECT * FROM Renters WHERE Name LIKE @username";
 
