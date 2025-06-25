@@ -79,6 +79,11 @@
     <Compile Include="AdminLogin.Designer.cs">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookLoopDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookLoopDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Books.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +107,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Rent.cs">
       <SubType>Form</SubType>
@@ -156,6 +167,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rent.resx">
       <DependentUpon>Rent.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +194,34 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="BookLoopDBDataSet.xsc">
+      <DependentUpon>BookLoopDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookLoopDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookLoopDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookLoopDBDataSet.xss">
+      <DependentUpon>BookLoopDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Addmin.datasource" />
+    <None Include="Properties\DataSources\AdminDashboard.datasource" />
+    <None Include="Properties\DataSources\AdminLogin.datasource" />
+    <None Include="Properties\DataSources\Books.datasource" />
+    <None Include="Properties\DataSources\ComicRentalSystem.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\ComicRentalSystem.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Confirmation.datasource" />
+    <None Include="Properties\DataSources\Dashboard.datasource" />
+    <None Include="Properties\DataSources\Extend.datasource" />
+    <None Include="Properties\DataSources\Login.datasource" />
+    <None Include="Properties\DataSources\NewUser.datasource" />
+    <None Include="Properties\DataSources\Payment.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\Rent.datasource" />
+    <None Include="Properties\DataSources\Rent.sharedData.datasource" />
+    <None Include="Properties\DataSources\Renters.datasource" />
+    <None Include="Properties\DataSources\Terms.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -213,6 +255,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

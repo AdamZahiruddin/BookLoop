@@ -26,5 +26,12 @@ namespace ComicRentalSystem
                 this.Hide();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Payment paymentForm = new Payment();
+            paymentForm.Show();
+            this.Hide();
+        }
     }
 }

@@ -63,7 +63,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(158, 20);
             this.txtName.TabIndex = 2;
-            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // lblName
             // 
@@ -74,7 +73,6 @@
             this.lblName.Size = new System.Drawing.Size(101, 20);
             this.lblName.TabIndex = 3;
             this.lblName.Text = "Name/Alias: ";
-            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // btnLoginNext
             // 
