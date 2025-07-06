@@ -26,8 +26,8 @@ This is a Windows Forms application built with .NET Framework that allows users 
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/comic-rental-admin.git
-cd comic-rental-admin
+git clone https://github.com/AdamZahiruddin/BookLoop.git
+cd BookLoop
 ```
 
 ## 🔧 Configuration
@@ -35,7 +35,7 @@ cd comic-rental-admin
 Before running the application, make sure to:
 
 1. Set up your database (e.g., SQL Server LocalDB or SQL Server Express).
-2. Update the connection string in `YourForm.cs` or `App.config` file.
+2. Update the connection string in forms that requires DB connection.
 
 ### 🔁 Example connection string:
 ```csharp
