@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,13 @@ namespace ComicRentalSystem
 {
     public partial class Login : Form
     {
+        private SqlConnection connection;
+        public string username;
+        private bool found;
         public Login()
         {
             InitializeComponent();
+
             // Initialize the form and its components
             this.Text = "Comic Rental System";
             this.Size = new Size(1000, 600);
@@ -29,9 +35,6 @@ namespace ComicRentalSystem
             btnLoginNext.FlatAppearance.BorderSize = 3;
             btnLoginNext.FlatAppearance.MouseOverBackColor = Color.BurlyWood; // Optional: matches your MouseEnter handler
             btnLoginNext.BackColor = Color.PeachPuff; 
-
-
-
         }
 
         // Pseudocode:
@@ -42,22 +45,45 @@ namespace ComicRentalSystem
         // Example implementation for a button named btnLoginNext:
 
         private void btnLoginNext_MouseEnter(object sender, EventArgs e)
-        {
-           
-         
-        }
+        {}
 
         private void btnLoginNext_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
+        {}
 
-       
-    
 
         private void btnLoginNext_Click(object sender, EventArgs e)
         {
-            string username = txtName.Text; 
+            username = txtName.Text;
+            // Initialize the connection object
+            // ADD YOUR DB SOURCE HERE
+            string connectionString = "";
+            connection = new SqlConnection(connectionString);
+            string query = "SELECT * FROM Renters WHERE Name LIKE @username";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connection);
+                dataAdapter.SelectCommand = new SqlCommand(query, connection);
+                dataAdapter.SelectCommand.Parameters.AddWithValue("@username", "%" + username + "%");
+
+                DataSet dataSet = new DataSet();
+                dataAdapter.Fill(dataSet, "Renters");
+
+                // Get the table from the dataset
+                DataTable renters = dataSet.Tables["Renters"];
+                found = false;
+
+                // Check each row to see if the name matches the textbox
+                foreach (DataRow row in renters.Rows)
+                {
+                    string nameInDb = row["Name"].ToString();
+                    if (nameInDb.Equals(username, StringComparison.OrdinalIgnoreCase))
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+            }
 
             if (string.IsNullOrEmpty(username))
             {
@@ -66,7 +92,7 @@ namespace ComicRentalSystem
             }
             else
             {
-                if(username == "admin")
+                if (username == "admin")
                 {
                     AdminLogin admLogin = new AdminLogin();
                     admLogin.MdiParent = this.MdiParent;
@@ -74,10 +100,17 @@ namespace ComicRentalSystem
                     admLogin.Show();
                     this.Hide();
                 }
+                else if (found)
+                {
+                    Rent form2 = new Rent(username);
+                    form2.Show();
+                    this.Hide();
+                }
                 else
                 {
-                    Rent form2 = new Rent();
-                    form2.Show();
+                    MessageBox.Show("No match found. Make new one");
+                    NewUser newUser = new NewUser();
+                    newUser.Show();
                     this.Hide();
                 }
             }

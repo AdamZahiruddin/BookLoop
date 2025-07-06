@@ -28,249 +28,192 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rent));
-            this.frontCoverImage = new System.Windows.Forms.PictureBox();
             this.submitBookButton = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.bookSummaryText = new System.Windows.Forms.Label();
-            this.pageContentImage = new System.Windows.Forms.PictureBox();
             this.welcomeText = new System.Windows.Forms.Label();
             this.welcomeText2 = new System.Windows.Forms.Label();
-            this.imageLabel1 = new System.Windows.Forms.Label();
-            this.imageLabel2 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.frontCoverImage)).BeginInit();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pageContentImage)).BeginInit();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.bookComboBox = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // frontCoverImage
-            // 
-            this.frontCoverImage.Image = ((System.Drawing.Image)(resources.GetObject("frontCoverImage.Image")));
-            this.frontCoverImage.Location = new System.Drawing.Point(41, 110);
-            this.frontCoverImage.Margin = new System.Windows.Forms.Padding(2);
-            this.frontCoverImage.Name = "frontCoverImage";
-            this.frontCoverImage.Size = new System.Drawing.Size(141, 154);
-            this.frontCoverImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.frontCoverImage.TabIndex = 0;
-            this.frontCoverImage.TabStop = false;
             // 
             // submitBookButton
             // 
-            this.submitBookButton.Location = new System.Drawing.Point(246, 366);
-            this.submitBookButton.Margin = new System.Windows.Forms.Padding(2);
+            this.submitBookButton.Location = new System.Drawing.Point(445, 167);
+            this.submitBookButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.submitBookButton.Name = "submitBookButton";
-            this.submitBookButton.Size = new System.Drawing.Size(86, 32);
+            this.submitBookButton.Size = new System.Drawing.Size(133, 340);
             this.submitBookButton.TabIndex = 0;
             this.submitBookButton.Text = "Confirm Book";
             this.submitBookButton.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.bookSummaryText);
-            this.groupBox3.Location = new System.Drawing.Point(41, 282);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(291, 80);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Book Summary";
-            // 
-            // bookSummaryText
-            // 
-            this.bookSummaryText.AutoSize = true;
-            this.bookSummaryText.Location = new System.Drawing.Point(13, 23);
-            this.bookSummaryText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.bookSummaryText.Name = "bookSummaryText";
-            this.bookSummaryText.Size = new System.Drawing.Size(111, 13);
-            this.bookSummaryText.TabIndex = 5;
-            this.bookSummaryText.Text = "Design credit to Adam";
-            this.bookSummaryText.Click += new System.EventHandler(this.bookSummaryText_Click);
-            // 
-            // pageContentImage
-            // 
-            this.pageContentImage.Image = ((System.Drawing.Image)(resources.GetObject("pageContentImage.Image")));
-            this.pageContentImage.Location = new System.Drawing.Point(191, 110);
-            this.pageContentImage.Margin = new System.Windows.Forms.Padding(2);
-            this.pageContentImage.Name = "pageContentImage";
-            this.pageContentImage.Size = new System.Drawing.Size(141, 154);
-            this.pageContentImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pageContentImage.TabIndex = 4;
-            this.pageContentImage.TabStop = false;
+            this.submitBookButton.Click += new System.EventHandler(this.submitBookButton_Click);
             // 
             // welcomeText
             // 
             this.welcomeText.AutoSize = true;
             this.welcomeText.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeText.Location = new System.Drawing.Point(39, 22);
-            this.welcomeText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.welcomeText.Location = new System.Drawing.Point(45, 18);
             this.welcomeText.Name = "welcomeText";
             this.welcomeText.Size = new System.Drawing.Size(126, 16);
             this.welcomeText.TabIndex = 9;
             this.welcomeText.Text = "Welcome, Name\r\n";
-            this.welcomeText.Click += new System.EventHandler(this.welcomeText_Click);
             // 
             // welcomeText2
             // 
             this.welcomeText2.AutoSize = true;
-            this.welcomeText2.Location = new System.Drawing.Point(39, 52);
-            this.welcomeText2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.welcomeText2.Location = new System.Drawing.Point(45, 55);
             this.welcomeText2.Name = "welcomeText2";
-            this.welcomeText2.Size = new System.Drawing.Size(142, 13);
+            this.welcomeText2.Size = new System.Drawing.Size(171, 16);
             this.welcomeText2.TabIndex = 10;
             this.welcomeText2.Text = "What would you like to rent?";
             this.welcomeText2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // imageLabel1
-            // 
-            this.imageLabel1.AutoSize = true;
-            this.imageLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imageLabel1.Location = new System.Drawing.Point(82, 87);
-            this.imageLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.imageLabel1.Name = "imageLabel1";
-            this.imageLabel1.Size = new System.Drawing.Size(73, 13);
-            this.imageLabel1.TabIndex = 11;
-            this.imageLabel1.Text = "Front Cover";
-            this.imageLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // imageLabel2
-            // 
-            this.imageLabel2.AutoSize = true;
-            this.imageLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imageLabel2.Location = new System.Drawing.Point(231, 87);
-            this.imageLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.imageLabel2.Name = "imageLabel2";
-            this.imageLabel2.Size = new System.Drawing.Size(84, 13);
-            this.imageLabel2.TabIndex = 12;
-            this.imageLabel2.Text = "Page Content";
-            this.imageLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.checkBox6);
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.checkBox2);
-            this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Location = new System.Drawing.Point(362, 136);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Controls.Add(this.radioButton6);
+            this.groupBox4.Controls.Add(this.radioButton5);
+            this.groupBox4.Controls.Add(this.radioButton4);
+            this.groupBox4.Controls.Add(this.radioButton3);
+            this.groupBox4.Controls.Add(this.radioButton2);
+            this.groupBox4.Controls.Add(this.radioButton1);
+            this.groupBox4.Location = new System.Drawing.Point(44, 183);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(259, 115);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Size = new System.Drawing.Size(381, 113);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Genre";
             // 
-            // checkBox6
+            // radioButton6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(136, 65);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(80, 17);
-            this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(173, 78);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(100, 20);
+            this.radioButton6.TabIndex = 11;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "radioButton6";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.Visible = false;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
-            // checkBox5
+            // radioButton5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(136, 42);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(80, 17);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(173, 50);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(100, 20);
+            this.radioButton5.TabIndex = 10;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "radioButton5";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.Visible = false;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
-            // checkBox4
+            // radioButton4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(136, 20);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(173, 25);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(100, 20);
+            this.radioButton4.TabIndex = 9;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.Visible = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
-            // checkBox3
+            // radioButton3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(5, 65);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(7, 80);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(100, 20);
+            this.radioButton3.TabIndex = 8;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.Visible = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
-            // checkBox2
+            // radioButton2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(5, 42);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(7, 53);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(100, 20);
+            this.radioButton2.TabIndex = 7;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Visible = false;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // checkBox1
+            // radioButton1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(5, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(5, 25);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(100, 20);
+            this.radioButton1.TabIndex = 6;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Visible = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(626, 113);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Items.AddRange(new object[] {
+            "list1"});
+            this.listBox1.Location = new System.Drawing.Point(628, 167);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(164, 186);
+            this.listBox1.Size = new System.Drawing.Size(411, 244);
             this.listBox1.TabIndex = 13;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(640, 328);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(640, 422);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 26);
+            this.label1.Size = new System.Drawing.Size(161, 32);
             this.label1.TabIndex = 14;
-            this.label1.Text = "You may only borrow three \r\nof our items at most";
+            this.label1.Text = "You may only borrow one \r\nof our items at most";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(643, 366);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Enabled = false;
+            this.button1.Location = new System.Drawing.Point(644, 466);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 32);
+            this.button1.Size = new System.Drawing.Size(168, 39);
             this.button1.TabIndex = 15;
             this.button1.Text = "Confirm Selection";
             this.button1.UseVisualStyleBackColor = true;
@@ -279,10 +222,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(623, 87);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(943, 143);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(96, 16);
             this.label2.TabIndex = 16;
             this.label2.Text = "Selected Items";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -293,120 +235,103 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Educational",
             "Novels",
-            "Comics/Manga",
-            "CDs",
-            "Blueray"});
-            this.comboBox1.Location = new System.Drawing.Point(362, 110);
+            "Comics",
+            "Blueray",
+            "CDs"});
+            this.comboBox1.Location = new System.Drawing.Point(44, 135);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(172, 24);
             this.comboBox1.TabIndex = 17;
+            this.comboBox1.Text = "Choose Option Below";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(364, 87);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(45, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(80, 16);
             this.label3.TabIndex = 18;
             this.label3.Text = "Media Type";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox1
+            // button2
             // 
-            this.groupBox1.Controls.Add(this.checkBox13);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox10);
-            this.groupBox1.Controls.Add(this.checkBox11);
-            this.groupBox1.Controls.Add(this.checkBox12);
-            this.groupBox1.Location = new System.Drawing.Point(362, 263);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(259, 115);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Books";
+            this.button2.Location = new System.Drawing.Point(859, 466);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(168, 39);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "Extends Bookings";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkBox13
+            // label4
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(120, 65);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(86, 17);
-            this.checkBox13.TabIndex = 6;
-            this.checkBox13.Text = "checkBox13";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(883, 422);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(117, 32);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Wish to extend\r\nbookings instead?\r\n";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox7
+            // label5
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(5, 18);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(80, 17);
-            this.checkBox7.TabIndex = 5;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(375, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(300, 112);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "LIST PRICE\r\n\r\nEducational: RM 12.00          Novels:          RM 5.00\r\n\r\nComics: " +
+    "        RM 7.00             Blueray:         RM 15.00\r\n\r\nCDs:                RM " +
+    "10.00";
             // 
-            // checkBox8
+            // label6
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(5, 42);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(80, 17);
-            this.checkBox8.TabIndex = 4;
-            this.checkBox8.Text = "checkBox8";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(47, 318);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 16);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Book";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox9
+            // bookComboBox
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(5, 65);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(80, 17);
-            this.checkBox9.TabIndex = 3;
-            this.checkBox9.Text = "checkBox9";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.bookComboBox.FormattingEnabled = true;
+            this.bookComboBox.Location = new System.Drawing.Point(45, 346);
+            this.bookComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bookComboBox.Name = "bookComboBox";
+            this.bookComboBox.Size = new System.Drawing.Size(172, 24);
+            this.bookComboBox.TabIndex = 24;
+            this.bookComboBox.Text = "Choose Option Below";
+            this.bookComboBox.SelectedIndexChanged += new System.EventHandler(this.bookComboBox_SelectedIndexChanged);
             // 
-            // checkBox10
+            // button3
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(5, 88);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(86, 17);
-            this.checkBox10.TabIndex = 2;
-            this.checkBox10.Text = "checkBox10";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(120, 19);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(86, 17);
-            this.checkBox11.TabIndex = 1;
-            this.checkBox11.Text = "checkBox11";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(120, 42);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(86, 17);
-            this.checkBox12.TabIndex = 0;
-            this.checkBox12.Text = "checkBox12";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(887, 21);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(168, 39);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Log Out";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Rent
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(230)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(802, 426);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1069, 524);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.bookComboBox);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
@@ -414,61 +339,42 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.imageLabel2);
-            this.Controls.Add(this.imageLabel1);
             this.Controls.Add(this.welcomeText2);
             this.Controls.Add(this.welcomeText);
-            this.Controls.Add(this.pageContentImage);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.submitBookButton);
-            this.Controls.Add(this.frontCoverImage);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Rent";
-            this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.frontCoverImage)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pageContentImage)).EndInit();
+            this.Text = "Rent";
+            this.Load += new System.EventHandler(this.Rent_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox frontCoverImage;
         private System.Windows.Forms.Button submitBookButton;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label bookSummaryText;
-        private System.Windows.Forms.PictureBox pageContentImage;
         private System.Windows.Forms.Label welcomeText;
         private System.Windows.Forms.Label welcomeText2;
-        private System.Windows.Forms.Label imageLabel1;
-        private System.Windows.Forms.Label imageLabel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox bookComboBox;
+        private System.Windows.Forms.Button button3;
     }
 }

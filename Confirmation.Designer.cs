@@ -41,16 +41,19 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(187, 12);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(249, 15);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(233, 238);
+            this.listBox1.Size = new System.Drawing.Size(319, 308);
             this.listBox1.TabIndex = 0;
             // 
             // btnSaveReceipt
             // 
-            this.btnSaveReceipt.Location = new System.Drawing.Point(238, 296);
+            this.btnSaveReceipt.Location = new System.Drawing.Point(310, 391);
+            this.btnSaveReceipt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSaveReceipt.Name = "btnSaveReceipt";
-            this.btnSaveReceipt.Size = new System.Drawing.Size(130, 54);
+            this.btnSaveReceipt.Size = new System.Drawing.Size(173, 66);
             this.btnSaveReceipt.TabIndex = 1;
             this.btnSaveReceipt.Text = "Save Receipt";
             this.btnSaveReceipt.UseVisualStyleBackColor = true;
@@ -59,24 +62,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(169, 254);
+            this.label1.Location = new System.Drawing.Point(246, 337);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 39);
+            this.label1.Size = new System.Drawing.Size(331, 48);
             this.label1.TabIndex = 2;
             this.label1.Text = "Once Receipt is saved to your device, program wil exit.\r\n\r\n                     T" +
     "hank you for renting with us.";
             // 
             // Confirmation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(230)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(600, 382);
+            this.ClientSize = new System.Drawing.Size(800, 470);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSaveReceipt);
             this.Controls.Add(this.listBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Confirmation";
             this.Text = "Confirmation";
+            this.Load += new System.EventHandler(this.Confirmation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

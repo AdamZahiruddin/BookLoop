@@ -1,50 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\",
+  "WorkspaceRootPath": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|c:\\users\\ideapad gaming 3\\desktop\\bookloop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|c:\\users\\ideapad gaming 3\\desktop\\bookloop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Renters.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Rental.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Receipt.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:confirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Admin.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|c:\\users\\asyra\\documents\\devfolder\\semester4\\bookloop-database-latest\\bookloop-database\\terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:terms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\renters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:renters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|ComicRentalSystem.csproj|solutionrelative:rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\extendconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:extendconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\extend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:extend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\addmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63187B7-7514-457F-8762-0F7787FDF036}|BookLoop.csproj|solutionrelative:addmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,143 +77,223 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 16,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:14:01.93Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:10:07.742Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Renters [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Renters.sql",
+              "ToolTip": "dbo.Renters [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-06T08:14:28.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\ComicRentalSystem\\Login.cs [Design]",
-              "RelativeToolTip": "..\\ComicRentalSystem\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:10:05.784Z"
+              "Title": "dbo.Rental [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Rental.sql",
+              "ToolTip": "dbo.Rental [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-06T08:14:26.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Confirmation.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Confirmation.cs",
-              "RelativeDocumentMoniker": "Confirmation.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Confirmation.cs",
-              "RelativeToolTip": "Confirmation.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:09:14.761Z"
+              "Title": "dbo.Receipt [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Receipt.sql",
+              "ToolTip": "dbo.Receipt [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-06T08:14:24.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Confirmation.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Confirmation.cs",
-              "RelativeDocumentMoniker": "Confirmation.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\ComicRentalSystem\\Confirmation.cs [Design]",
-              "RelativeToolTip": "..\\ComicRentalSystem\\Confirmation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:05:16.222Z"
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-06T08:14:21.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Terms.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Terms.cs",
-              "RelativeDocumentMoniker": "Terms.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Terms.cs",
-              "RelativeToolTip": "Terms.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:04:24.227Z"
+              "Title": "dbo.Admin [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASYRA_DOCUMENTS_DEVFOLDER_SEMESTER4_BOOKLOOP_DATABASE_LATEST_BOOKLOOP_DATABASE_BOOKLOOPDB.MDF/True/SqlTable/dbo.Admin.sql",
+              "ToolTip": "dbo.Admin [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-06T08:14:19.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Terms.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Terms.cs",
+              "Title": "Terms.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Terms.cs",
               "RelativeDocumentMoniker": "Terms.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\ComicRentalSystem\\Terms.cs [Design]",
-              "RelativeToolTip": "..\\ComicRentalSystem\\Terms.cs [Design]",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Terms.cs",
+              "RelativeToolTip": "Terms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:04:20.343Z"
+              "WhenOpened": "2025-07-06T08:08:52.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Payment.cs",
-              "RelativeDocumentMoniker": "Payment.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Payment.cs",
-              "RelativeToolTip": "Payment.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwCoAAAAYAAAAAAAAAA==",
+              "Title": "Renters.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Renters.cs",
+              "RelativeDocumentMoniker": "Renters.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Renters.cs",
+              "RelativeToolTip": "Renters.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:02:21.899Z"
+              "WhenOpened": "2025-07-06T08:08:31.848Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Payment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Payment.cs",
-              "RelativeDocumentMoniker": "Payment.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\ComicRentalSystem\\Payment.cs [Design]",
-              "RelativeToolTip": "..\\ComicRentalSystem\\Payment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:02:15.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Rent.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Rent.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Rent.cs",
               "RelativeDocumentMoniker": "Rent.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Rent.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Rent.cs",
               "RelativeToolTip": "Rent.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwCYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAAAFcBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:01:52.322Z"
+              "WhenOpened": "2025-07-06T08:07:42.659Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Rent.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\BookLoop\\Rent.cs",
-              "RelativeDocumentMoniker": "Rent.cs",
-              "ToolTip": "C:\\Users\\IdeaPad Gaming 3\\Desktop\\ComicRentalSystem\\Rent.cs [Design]",
-              "RelativeToolTip": "..\\ComicRentalSystem\\Rent.cs [Design]",
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Payment.cs",
+              "RelativeDocumentMoniker": "Payment.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Payment.cs",
+              "RelativeToolTip": "Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:01:40.226Z"
+              "WhenOpened": "2025-07-06T08:07:30.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewUser.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\NewUser.cs",
+              "RelativeDocumentMoniker": "NewUser.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\NewUser.cs",
+              "RelativeToolTip": "NewUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:07:18.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:07:05.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExtendConfirm.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\ExtendConfirm.cs",
+              "RelativeDocumentMoniker": "ExtendConfirm.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\ExtendConfirm.cs",
+              "RelativeToolTip": "ExtendConfirm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:06:50.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Extend.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Extend.cs",
+              "RelativeDocumentMoniker": "Extend.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Extend.cs",
+              "RelativeToolTip": "Extend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:06:24.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:06:10.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Confirmation.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Confirmation.cs",
+              "RelativeDocumentMoniker": "Confirmation.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Confirmation.cs",
+              "RelativeToolTip": "Confirmation.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:05:41.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Books.cs",
+              "RelativeDocumentMoniker": "Books.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Books.cs",
+              "RelativeToolTip": "Books.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAUwFIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T07:17:14.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "AdminLogin.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\AdminLogin.cs",
+              "RelativeToolTip": "AdminLogin.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:03:58.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Addmin.cs",
+              "DocumentMoniker": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Addmin.cs",
+              "RelativeDocumentMoniker": "Addmin.cs",
+              "ToolTip": "C:\\Users\\asyra\\Documents\\devFolder\\Semester4\\BookLoop-Database-latest\\BookLoop-Database\\Addmin.cs",
+              "RelativeToolTip": "Addmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:03:15.283Z"
             }
           ]
         }
